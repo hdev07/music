@@ -4,8 +4,8 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "skipto",
-  aliases: ["st"],
+  name: "saltara",
+  aliases: ["sa"],
   description: i18n.__("skipto.description"),
   execute(message, args) {
     if (!args.length || isNaN(args[0]))

@@ -4,7 +4,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "volume",
+  name: "volumen",
   aliases: ["v"],
   description: i18n.__("volume.description"),
   execute(message, args) {

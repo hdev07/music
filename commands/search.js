@@ -7,7 +7,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "search",
+  name: "buscar",
   description: i18n.__("search.description"),
   async execute(message, args) {
     if (!args.length)

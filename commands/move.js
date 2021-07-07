@@ -5,7 +5,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "move",
+  name: "mover",
   aliases: ["mv"],
   description: i18n.__("move.description"),
   execute(message, args) {

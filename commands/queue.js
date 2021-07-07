@@ -5,9 +5,9 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "queue",
+  name: "cola",
   cooldown: 5,
-  aliases: ["q"],
+  aliases: ["c"],
   description: i18n.__("queue.description"),
   async execute(message) {
     const permissions = message.channel.permissionsFor(message.client.user);

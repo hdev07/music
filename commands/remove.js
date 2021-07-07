@@ -5,8 +5,8 @@ i18n.setLocale(LOCALE);
 const pattern = /^[0-9]{1,2}(\s*,\s*[0-9]{1,2})*$/;
 
 module.exports = {
-  name: "remove",
-  aliases: ["rm"],
+  name: "quitar",
+  aliases: ["q"],
   description: i18n.__("remove.description"),
   execute(message, args) {
     const queue = message.client.queue.get(message.guild.id);

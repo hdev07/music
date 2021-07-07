@@ -4,7 +4,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "skip",
+  name: "saltar",
   aliases: ["s"],
   description: i18n.__("skip.description"),
   execute(message) {
