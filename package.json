@@ -1,13 +1,13 @@
 {
-  "name": "evobot",
+  "name": "dj-pro",
   "version": "0.10.0",
-  "description": "Discord music bot built with discord.js",
+  "description": "",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "",
+  "repository": "",
+  "bugs": "",
   "engines": {
     "node": ">=14.0.0"
   },
